@@ -27,7 +27,7 @@ FUN_FRAGMENT_NAME=Avatar FUN_PORT=3002 ./copy.sh avatar
 ```bash
 ./start.sh footer # in first terminal
 ./start.sh header # in second terminal
-./start.sh avatar # in second terminal
+./start.sh avatar # in third terminal
 
 cd composer
 yarn dev
