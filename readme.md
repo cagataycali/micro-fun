@@ -1,6 +1,5 @@
 # Micro Frontend Fun
 
-
 # Run locally
 
 ```bash
@@ -18,8 +17,9 @@ yarn dev
 
 # Scaffold a boilerplate for micro fragment
 ```bash
-FUN_NAME=Footer FUN_PORT=3000 ./copy.sh footer
-FUN_NAME=Header FUN_PORT=3001 ./copy.sh header
+FUN_FRAGMENT_NAME=Footer FUN_PORT=3000 ./copy.sh footer
+FUN_FRAGMENT_NAME=Header FUN_PORT=3001 ./copy.sh header
+FUN_FRAGMENT_NAME=Avatar FUN_PORT=3002 ./copy.sh avatar
 ```
 
 # Start
@@ -27,8 +27,8 @@ FUN_NAME=Header FUN_PORT=3001 ./copy.sh header
 ```bash
 ./start.sh footer # in first terminal
 ./start.sh header # in second terminal
+./start.sh avatar # in second terminal
 
 cd composer
 yarn dev
 ```
-

@@ -9,7 +9,6 @@ export default function Detay() {
     <div className={styles.container}>
       <main className={styles.main}>
         <Header />
-        <p>header</p>
       </main>
     </div>
   );
