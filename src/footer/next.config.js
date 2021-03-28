@@ -32,7 +32,7 @@ module.exports = {
     config.plugins.push(new MergeRuntime());
 
     if (!isServer) {
-      config.output.publicPath = "http://localhost:3000/_next/";
+      config.output.publicPath = "http://localhost:3001/_next/";
     }
 
     return config;

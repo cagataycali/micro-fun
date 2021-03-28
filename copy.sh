@@ -17,7 +17,7 @@ unset IFS
 for var in "${!FUN_@}"; do
     glob="s|#$var|${!var}|g"
     # Debug with uncomment below echo.
-    echo $glob # Will replace if the FUN_PROVIDER='TEST'
+    # echo $glob # Will replace if the FUN_PROVIDER='TEST'
     # The find code is taken from: https://superuser.com/a/537037
     find . -type f -name "*" -not -path '*/\.git/*' -not -path '*/\node_modules/*' -exec sed -i'' -e $glob {} + 2> /dev/null
 done
@@ -27,5 +27,3 @@ rm *-e 2> /dev/null
 rm **/.*-e 2> /dev/null
 rm .*-e 2> /dev/null
 echo 'Cleanup success'
-
-yarn

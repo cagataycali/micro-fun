@@ -2,7 +2,7 @@ import * as React from 'react';
 
 const #FUN_FRAGMENT_NAME = () => {
   return (
-    <div>#FUN_FRAGMENT_NAME</div>
+    <h1>#FUN_FRAGMENT_NAME</h1>
   );
 };
 

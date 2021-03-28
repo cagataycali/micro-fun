@@ -2,7 +2,7 @@ import * as React from 'react';
 
 const Avatar = () => {
   return (
-    <div>Avatar</div>
+    <h1>Avatar</h1>
   );
 };
 
