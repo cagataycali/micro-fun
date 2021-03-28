@@ -1,6 +1,6 @@
-# Micro Frontend Fun
+# Micro Frontend Fun (Not blazing fast)
 
-This project is a template for next microfrontend project.
+This project is a template for your next micro-frontend project.
 
 # Example usage:
 
