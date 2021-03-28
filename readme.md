@@ -2,6 +2,12 @@
 
 This project is a template for next microfrontend project.
 
+# Example usage:
+
+https://github.com/cagataycali/micro-fun-example
+
+# Usage of template
+
 ```bash
 git clone git@github.com:cagataycali/micro-fun.git
 ```
