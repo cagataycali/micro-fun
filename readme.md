@@ -6,6 +6,8 @@ This project is a template for your next micro-frontend project.
 
 https://github.com/cagataycali/micro-fun-example
 
+Another example: https://github.com/cagataycali/micro-fun-rick-and-morty
+
 # Usage of template
 
 ```bash
