@@ -1,4 +1,4 @@
-# Micro Frontend Fun (Not blazing fast)
+# Micro Frontend Fun (Not blazing fast) - Build for fun, really.
 
 This project is a template for your next micro-frontend project.
 
