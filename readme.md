@@ -37,3 +37,5 @@ FUN_FRAGMENT_NAME=Avatar FUN_PORT=3002 ./copy.sh avatar
 cd composer
 yarn dev
 ```
+
+# [Join Discussion](https://www.reddit.com/r/javascript/comments/mf2yy9/scaffolder_for_your_next_microfrontend/)
